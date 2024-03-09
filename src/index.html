@@ -10,7 +10,7 @@
 			rel="stylesheet" />
 		<title>Food Menu</title>
 	</head>
-	<body class="text-gray-600">
+	<body class="text-gray-600 font-nunito">
 		<div>
 			<div>
 				<nav>
@@ -38,33 +38,52 @@
 					</ul>
 				</nav>
 			</div>
-			<main class="px-16 py-6">
-				<div>
-					<a href="#">Log in</a>
-					<a href="#">Sign up</a>
+			<main class="px-16 py-6 bg-gray-100">
+				<div class="flex justify-center md:justify-end">
+					<a
+						href="#"
+						class="text-red-500"
+						>Log in</a
+					>
+					<a
+						href="#"
+						class="text-red-500 ml-2"
+						>Sign up</a
+					>
 				</div>
 				<header>
-					<h2 class="text-7xl">Recepies</h2>
+					<h2 class="text-7xl">Recipes</h2>
 					<h3 class="text-5xl">For you</h3>
 				</header>
 				<div>
-					<h4 class="text-2xl mt-12 pb-2 border-b border-gray-200">Latest Recepies</h4>
-					<div class="mt-8">
+					<h4 class="text-2xl mt-12 pb-2 border-b border-gray-200">
+						Latest Recipes
+					</h4>
+					<div class="mt-8 size-60">
 						<!--cards go here-->
-						<div>
+						<div
+							class="bg-white rounded overflow-hidden shadow-md relative">
 							<img
 								src="/public/img/stew.jpeg"
 								alt="stew" />
-							<div><span>Brean Chilli Stew</span></div>
-							<div><span>Recepe by Mario</span></div>
+							<div class="m-4">
+								<span class="font-bold">Bean Chilli Stew</span>
+								<span class="block text-gray-00 text-sm">Recipe by Mario</span>
+							</div>
+							<div
+								class="bg-orange-400 text-white text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
+								<span>25 mins</span>
+							</div>
 						</div>
 					</div>
-					<h4 class="text-2xl mt-12 pb-2 border-b border-gray-200">Most Popular</h4>
+					<h4 class="text-2xl mt-12 pb-2 border-b border-gray-200">
+						Most Popular
+					</h4>
 					<div class="mt-8">
 						<!--cards go here-->
 					</div>
-					<div>
-						<div>Load more ...</div>
+					<div class="flex justify-center">
+						<div class="">Load more ...</div>
 					</div>
 				</div>
 			</main>
