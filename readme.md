@@ -6,7 +6,7 @@ This is a simple web page template for a menu website, designed using HTML, Tail
 
 - [Description](#description)
 - [Features](#features)
-- [Usage](#usage)
+- [Screenshots](#Screenshots)
 
 ## Description
 
@@ -19,10 +19,8 @@ The Menu web page template is designed to showcase a menu with navigation links,
 - Latest recipes section showcasing recipe cards.
 - Load more button to display additional recipes.
 
-## Usage
+##Screenshots
 
-1. Clone or download the repository.
-2. Open the `index.html` file in your web browser to view the webpage.
-3. Explore the navigation links to navigate between different sections.
-4. Check out the latest recipes and popular recipes sections.
-5. Click on the "Load more" button to view additional recipes.
+![desktop](/public/img/desktop.png
+)
+![mobile](/public/img/mobile.png)
