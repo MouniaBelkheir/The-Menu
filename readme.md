@@ -19,7 +19,7 @@ The Menu web page template is designed to showcase a menu with navigation links,
 - Latest recipes section showcasing recipe cards.
 - Load more button to display additional recipes.
 
-##Screenshots
+## Screenshots
 
 ![desktop](/public/img/desktop.png
 )
